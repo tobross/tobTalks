@@ -1,0 +1,29 @@
+@import "./variables";
+
+@mixin seatShape {
+	border-radius: 15px 15px 0px 0px !important;
+}
+
+.seat{
+	background-color: $occupied;
+	height: 50px;
+	width: 50px;
+	border: 1px solid #000;
+	@include seatShape;
+	&:hover{
+	background-color: $hover;
+}
+}
+
+.occupied0{
+	background-color: #6e6e6e !important;
+	&:hover{
+	background-color: $unoccupiedHover !important;
+}
+}
+
+.btn{
+	font-size:smaller !important;
+	line-height: 0.4;
+	text-transform: uppercase !important;
+}

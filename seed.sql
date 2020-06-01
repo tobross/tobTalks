@@ -1,0 +1,92 @@
+CREATE seatingchart;
+USE seatingchart;
+CREATE TABLE seats (
+	id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+	line INT(11) not null,
+	location INT(11) not null,
+	occupied BOOLEAN not null,
+	buttontype VARCHAR(20),
+	buttontext VARCHAR(20)
+);
+
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 3, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 5, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 8, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (1, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 3, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 5, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 8, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (2, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 3, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 5, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 8, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (3, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 3, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 5, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 8, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (4, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 3, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 5, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 8, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (5, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 3, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 5, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 8, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (6, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 3, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 5, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 8, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (7, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 3, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 5, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 8, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (8, 9, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 1, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 2, 0, 'primary', 'book');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 3, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 4, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 5, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 6, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 7, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 8, 1, 'warning', 'cancel');
+INSERT INTO seats (line, location, occupied, buttontype, buttontext) VALUES (9, 9, 1, 'warning', 'cancel');

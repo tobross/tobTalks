@@ -1,0 +1,113 @@
+@import "./variables";
+@import"./seat";
+@import "./fh-grid";
+
+
+body{
+	background-color: $white;
+}
+
+
+
+.walkway{
+	background-color: $walkway;
+	border-left: $redborder;
+	border-right: $redborder;
+}
+.row{
+	margin-left: 4% !important;
+	margin-right: -2%;
+}
+
+.header{
+	.title{
+	color: $white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px 0px 20px 0px;
+}
+}
+
+.logo{
+	font-size: 26px !important;
+	font-weight: 900 !important;
+	color: red !important
+}
+
+.logo-sub{
+	color: #999 !important;
+}
+
+.banner-buttons{
+	position: absolute !important;
+	bottom: 0% !important;
+}
+
+.header-sub-text{
+	padding-top: 10%;
+	color: $grey;
+	.linkText{
+		text-decoration: underline;
+		color: $grey;
+	}
+}
+.walkthrough{
+	list-style-type: none !important;
+	padding: 0 !important;
+	margin: 0 0 1.5em;
+	text-align: center !important;
+	.listItem{
+		position: relative !important;
+		width: 100% !important;
+	}
+}
+.liNumber{
+			margin-bottom: 1.2em !important;
+			font-weight: 700 !important;
+			font-size: 1.2rem;
+		}
+.li-text{
+			line-height: 1.2 !important;
+			margin-left: auto !important;
+			margin-right: auto !important;
+			font-weight: 400 !important;
+		}
+.unset{
+	margin-left: unset !important;
+	margin-right: unset !important;
+}
+.widerow{
+	width: 104vw !important;
+	margin-left: -2.1% !important;
+}
+.floatingText{
+	margin-top: 25%;
+	margin-left: 0%;
+	width: 80%;
+}
+.footer{
+	background-color: $black;
+	width: 100vw !important;
+	border-bottom: $redborder;
+}
+.blackBackgroundTitle{
+	color: $white;
+	margin-top: 10px;
+}
+.bbText{
+	color: $white;
+	font-size: 87.5%;
+}
+.realfooter{
+	font-size: 12px !important;
+	padding-top: 20px !important;
+	border-top: $redborder;
+	background-color: #f8f9fa;
+	width: 100vw !important;
+}
+.talkspage{
+	background-color: $black;
+}
+.no-style{
+	list-style-type: none !important;
+}
